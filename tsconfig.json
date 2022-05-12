@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // setting absolute path
+    "paths": {
+      "~/*": ["src/*"] // based on the baseUrl, mapping list of paths
+    },
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"], // list of library files to be included in the compilation.
+    "allowJs": true, // allow compilation of javascript
+    "skipLibCheck": true, // skip type checking of all declaration files (*.d.ts)
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true, // allow default imports on modules where there is no default exports
+    "strict": true, // Activate all strict type inspection options.
+    "forceConsistentCasingInFileNames": true, // checking case sensitivity in file names when importing. eg) "./tsconfig.json vs ./Tsconfig.json "
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true, // allow importing *.json files
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
