@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Title from "./components/title";
+import Title from "./components/Title";
 // import "./style/index.scss";
 
 const App = () => {

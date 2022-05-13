@@ -25,8 +25,9 @@ module.exports = {
   },
 
   output: {
-    path: path.resolve(distPath, "dist"),
+    path: path.resolve(distPath),
     assetModuleFilename: "images/[hash][ext][query]",
+    filename: "index.js",
   },
 
   module: {
