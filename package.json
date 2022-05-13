@@ -5,6 +5,11 @@
   "repository": "https://github.com/Min5407/react-boilerplate2.git",
   "author": "Min Young Go <gmy5407>",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack serve -c ./config/webpack.dev.js",
+    "watch": "webpack --watch -c ./config/webpack.dev.js",
+    "build": "cross-env NODE_ENV=production webpack -c ./config/webpack.config.js"
+  },
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
@@ -19,10 +24,13 @@
     "@types/react-dom": "^18.0.3",
     "babel-loader": "^8.2.5",
     "clean-webpack-plugin": "^4.0.0",
-    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.0",
+    "postcss-loader": "^6.2.1",
     "react-refresh": "^0.13.0",
+    "sass-loader": "^12.6.0",
+    "ts-loader": "^9.3.0",
     "typescript": "^4.6.4",
     "webpack": "^5.72.1",
     "webpack-bundle-analyzer": "^4.5.0",

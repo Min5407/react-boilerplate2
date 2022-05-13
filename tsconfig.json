@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".", // setting absolute path
     "paths": {
-      "~/*": ["src/*"] // based on the baseUrl, mapping list of paths
+      "~/*": ["./src/*"] // based on the baseUrl, mapping list of paths
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"], // list of library files to be included in the compilation.
