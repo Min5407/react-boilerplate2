@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Title from "./components/Title";
 // import "./style/index.scss";
+import "./assets/styles/index.scss";
 
 const App = () => {
   const [count, setCount] = useState(0);

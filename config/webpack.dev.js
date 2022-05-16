@@ -8,6 +8,7 @@ module.exports = merge(common, {
   target: "web",
 
   devServer: {
+    open: true,
     historyApiFallback: true,
     hot: true,
     compress: true,
