@@ -1,5 +1,8 @@
-import Video from "~/assets/videos/video.mp4";
+import Video from '~/assets/videos/video.mp4';
 
-const Title = () => <div className="background">title</div>;
+const Title = () => {
+  const data = 12;
+  return <div className='background'>title</div>;
+};
 
 export default Title;
